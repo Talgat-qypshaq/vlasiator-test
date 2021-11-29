@@ -1,16 +1,48 @@
-#!/bin/bash
-SBATCH --job-name=Vlasiator-CUDA
-SBATCH --account=<2002873>
-SBATCH --partition=gpusmall
-SBATCH --time=02:00:00
-SBATCH --ntasks=1
-SBATCH --cpus-per-task=32
-SBATCH --gres=gpu:a100:1
-## if local fast disk on a node is also needed, replace above line with:
-#SBATCH --gres=gpu:a100:1,nvme:900
+#!/bin/bash -l
+#SBATCH --time=00:15:00
+#SBATCH --job-name=vlasigputest
+#SBATCH --account=project_2004522
+##SBATCH --account=project_2002873
+#SBATCH --gres=gpu:a100:1
+#SBATCH --partition=gputest
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=4
+#SBATCH --nodes=1
 
-## Please remember to load the environment your application may need.
-## And use the variable $LOCAL_SCRATCH in your batch job script
-## to access the local fast storage on each node.
+# set the number of threads based on --cpus-per-task
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+# Bind OpenMP threads to hardware threads
+export OMP_PLACES=cores
+export PHIPROF_PRINTS=compact,full
 
-srun vlasiator <--run_config acctest_2_maxw_500k_100k_20kms_10deg_1.cfg>
+
+ht=2    #hyper threads per physical core
+t=$OMP_NUM_THREADS     #threads per process
+nodes=$SLURM_NNODES
+
+#mahti has 2 x 64 cores
+cores_per_node=128
+total_units=$(echo $nodes $cores_per_node $ht | gawk '{print $1*$2*$3}')
+units_per_node=$(echo $cores_per_node $ht | gawk '{print $1*$2}')
+tasks=$(echo $total_units $t  | gawk '{print $1/$2}')
+tasks_per_node=$(echo $units_per_node $t  | gawk '{print $1/$2}')
+
+#export OMPI_MCA_coll=^hcoll
+
+module purge
+module load nvhpc/21.2
+module load openmpi/4.0.5-cuda
+module load cuda/11.2
+module load nsight-systems/2021.1
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/projappl/project_2002873/libraries/clang/10.0.0/boost/lib
+
+umask 007
+ulimit -c unlimited
+
+srun -n 1 -N 1 vlasiator --version
+#srun --mpi=pmix vlasiator --run_config Magnetosphere_polar_small.cfg
+#nvidia-cuda-mps-control -d
+#srun vlasiator --run_config Magnetosphere_polar_small.cfg
+#echo quit | nvidia-cuda-mps-control
+
+nsys profile -y 5 -d 30 -w true -t nvtx,mpi,cuda -s none ./vlasiator --run_config acctest_2_maxw_500k_100k_20kms_10deg_1.cfg
