@@ -1,0 +1,12 @@
+Tue Nov 30 13:45:39 2021 
+(MAIN) Starting simulation with 1 MPI processes and 0 OpenMP threads per process
+
+Tue Nov 30 13:45:39 2021 
+	 Zoltan 3.9 initialized successfully
+
+Tue Nov 30 13:45:39 2021 
+(INIT): Starting initial load balance.
+
+Tue Nov 30 13:45:39 2021 
+(INIT): Set initial state.
+
