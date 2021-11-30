@@ -1,0 +1,49 @@
+nsight systems  2021.1  loaded 
+
+----------- Compilation --------- 
+date:       Thu 25 Nov 20:30:49 EET 2021
+folder:     /users/manglaye/github/vlasiator 
+CMP:        mpic++ 
+CXXFLAGS:   -DUSE_JEMALLOC -DJEMALLOC_NO_DEMANGLE -g -O2 -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -Minfo=accel -ta=tesla:lineinfo,keepbin,keepgpu,keepptx -Manno -g -nomp -DPROFILE -DNDEBUG -DACC_SEMILAG_PQM -DTRANS_SEMILAG_PQM -I/projappl/project_2002873/libraries/nvhpc/21.2/phiprof/include -I//projappl/project_2002873/libraries/clang/10.0.0/jemalloc/include -DDP -DDPF -DVEC4D_FALLBACK -g -O2 -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -Minfo=accel -ta=tesla:lineinfo,keepbin,keepgpu,keepptx -Manno -nomp -DPROFILE -DNDEBUG -DACC_SEMILAG_PQM -DTRANS_SEMILAG_PQM -I/projappl/project_2002873/libraries/nvhpc/21.2/phiprof/include -I//projappl/project_2002873/libraries/clang/10.0.0/jemalloc/include -DDP -DDPF -DVEC4D_FALLBACK 
+FLAGS:       
+INC_MPI:     
+INC_DCCRG:  -I/projappl/project_2002873/libraries/nvhpc/21.2/dccrg 
+INC_ZOLTAN: -I/projappl/project_2002873/libraries/nvhpc/21.2/fsgrid 
+INC_BOOST:  -I//projappl/project_2002873/libraries/nvhpc/21.2/zoltan/include 
+
+----------- git branch --------- 
+  master
+* openacc2
+
+----------- git log (last 10 commits) --------- 
+8667dfd2a0790cab28e3481468eb891c8b6b9b5c changes in Makefile
+5638d3b745475927c83316c0334689f7051f5e2c changes in Makefile
+bb52cc95457415e74166bef4fe307cd49243f48c changes in Makefile
+a3a417463de8ec53b5e289d7a26abd754817a58f changes in Makefile
+61294e1026b79dccd73696675d4af92daa4539f1 changes in Makefile
+3dbeebae5d9019d572c5ceb5a94cd246af770ad0 changes in Makefile
+5000c3ab2980912b59a6a620feff476fb63faf99 added makefile
+6024258f934bc484aca63176b244c54f5ec94145 added makefile
+1cfd563a22dd983428bd060ff020dc53c11f3a52 changed to CUDA compile
+873cb87dbd5b7e5c4e0d9f70803df6287da8a83a added PQM, PPM
+
+----------- module list --------- 
+
+Currently Loaded Modules:
+  1) nvhpc/21.2   2) openmpi/4.0.5-cuda   3) cuda/11.2
+
+ 
+
+
+----------- git status --------- 
+# On branch openacc2
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	quadr.tsm
+nothing added to commit but untracked files present (use "git add" to track)
+
+----------- git diff ---------- 
+
+srun: error: g1101: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=842229.1
