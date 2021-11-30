@@ -45,5 +45,5 @@ srun -n 1 -N 1 vlasiator --version
 #srun vlasiator --run_config acctest_2_maxw_500k_100k_20kms_10deg_1.cfg
 #echo quit | nvidia-cuda-mps-control
 
-#nsys profile -y 5 -d 30 -w true -t nvtx,mpi,cuda -s none ./vlasiator --run_config acctest_2_maxw_500k_100k_20kms_10deg_1.cfg
-srun vlasiator --run_config acctest_2_maxw_500k_100k_20kms_10deg_1.cfg
+nsys profile -y 5 -d 30 -w true -t nvtx,mpi,cuda -s none ./vlasiator --run_config acctest_2_maxw_500k_100k_20kms_10deg_1.cfg
+#srun vlasiator --run_config acctest_2_maxw_500k_100k_20kms_10deg_1.cfg
