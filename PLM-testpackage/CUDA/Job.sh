@@ -1,8 +1,8 @@
 #!/bin/bash -l
 #SBATCH --time=00:15:00
 #SBATCH --job-name=vlasigputest
-##SBATCH --account=project_2004522
-#SBATCH --account=project_2002873
+#SBATCH --account=project_2004522
+##SBATCH --account=project_2002873
 #SBATCH --gres=gpu:a100:1
 #SBATCH --partition=gputest
 #SBATCH --ntasks-per-node=1
