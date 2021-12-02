@@ -1,12 +1,3997 @@
-Tue Nov 30 13:45:39 2021 
+Wed Dec  1 13:50:07 2021 
 (MAIN) Starting simulation with 1 MPI processes and 0 OpenMP threads per process
 
-Tue Nov 30 13:45:39 2021 
+Wed Dec  1 13:50:07 2021 
 	 Zoltan 3.9 initialized successfully
 
-Tue Nov 30 13:45:39 2021 
+Wed Dec  1 13:50:07 2021 
 (INIT): Starting initial load balance.
 
-Tue Nov 30 13:45:39 2021 
+Wed Dec  1 13:50:07 2021 
 (INIT): Set initial state.
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing initial state to disk, tstep = 
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 732.376 kB in 0.000943913 seconds, approximate data rate is 775.894 MB/s
+(TIMESTEP) New dt = 22.375 computed on step 0 at 0s   Maximum possible dt (not including  vlasovsolver CFL 0.8-0.99 or fieldsolver CFL 0.4-0.5) in {r, v, BE} was 1.79769e+308 25 1.79769e+308  Including subcycling { v, BE}  was 25 1.79769e+308 
+
+Wed Dec  1 13:50:07 2021 
+(TIMESTEP) However, fixed timestep in config overrides dt = 10
+
+Wed Dec  1 13:50:07 2021 
+(MAIN): Starting main simulation loop.
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 0 t = 0 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 0 t = 0
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 712.768 kB in 0.000918512 seconds, approximate data rate is 776.003 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 1 t = 10 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 1 t = 10
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 741.664 kB in 0.000734923 seconds, approximate data rate is 1.00917 GB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 2 t = 20 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 2 t = 20
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 724.12 kB in 0.000881102 seconds, approximate data rate is 821.834 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 3 t = 30 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 3 t = 30
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 722.056 kB in 0.000912511 seconds, approximate data rate is 791.285 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 4 t = 40 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 4 t = 40
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 721.54 kB in 0.000905833 seconds, approximate data rate is 796.549 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 5 t = 50 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 5 t = 50
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 727.732 kB in 0.00078069 seconds, approximate data rate is 932.165 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 6 t = 60 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 6 t = 60
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 710.188 kB in 0.000757813 seconds, approximate data rate is 937.155 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 7 t = 70 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 7 t = 70
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 727.216 kB in 0.000846572 seconds, approximate data rate is 859.013 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 8 t = 80 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 8 t = 80
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 686.452 kB in 0.000877872 seconds, approximate data rate is 781.95 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 9 t = 90 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 9 t = 90
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 705.028 kB in 0.000832281 seconds, approximate data rate is 847.103 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 10 t = 100 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0150526 s
+(TIME) current walltime/simusecond 0.00150526 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 10 t = 100
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 727.732 kB in 0.000868743 seconds, approximate data rate is 837.684 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+(LB): Start load balance, tstep = 10 t = 100
+
+Wed Dec  1 13:50:07 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 11 t = 110 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 11 t = 110
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 728.764 kB in 0.000886532 seconds, approximate data rate is 822.039 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 12 t = 120 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 12 t = 120
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 714.316 kB in 0.000875422 seconds, approximate data rate is 815.968 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 13 t = 130 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 13 t = 130
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 716.896 kB in 0.000835162 seconds, approximate data rate is 858.392 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 14 t = 140 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 14 t = 140
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 710.188 kB in 0.000774272 seconds, approximate data rate is 917.233 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 15 t = 150 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 15 t = 150
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 713.284 kB in 0.000854072 seconds, approximate data rate is 835.157 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 16 t = 160 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 16 t = 160
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 699.352 kB in 0.000820652 seconds, approximate data rate is 852.191 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 17 t = 170 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 17 t = 170
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 731.344 kB in 0.00074934 seconds, approximate data rate is 975.984 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 18 t = 180 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 18 t = 180
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 698.32 kB in 0.000745281 seconds, approximate data rate is 936.989 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 19 t = 190 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 19 t = 190
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 683.872 kB in 0.000746263 seconds, approximate data rate is 916.395 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 20 t = 200 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0113294 s
+(TIME) current walltime/simusecond 0.00113294 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:10 2021
+
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 20 t = 200
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 718.444 kB in 0.00071036 seconds, approximate data rate is 1.01138 GB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+(LB): Start load balance, tstep = 20 t = 200
+
+Wed Dec  1 13:50:07 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 21 t = 210 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 21 t = 210
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 719.476 kB in 0.000687882 seconds, approximate data rate is 1.04593 GB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 22 t = 220 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 22 t = 220
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 691.612 kB in 0.000716432 seconds, approximate data rate is 965.356 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 23 t = 230 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 23 t = 230
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 707.608 kB in 0.000766152 seconds, approximate data rate is 923.587 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 24 t = 240 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 24 t = 240
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 716.38 kB in 0.000740952 seconds, approximate data rate is 966.837 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 25 t = 250 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 25 t = 250
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 715.348 kB in 0.00088787 seconds, approximate data rate is 805.69 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 26 t = 260 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 26 t = 260
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 709.672 kB in 0.000751591 seconds, approximate data rate is 944.226 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 27 t = 270 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 27 t = 270
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 693.16 kB in 0.000787952 seconds, approximate data rate is 879.698 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 28 t = 280 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 28 t = 280
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 682.84 kB in 0.00072301 seconds, approximate data rate is 944.441 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 29 t = 290 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 29 t = 290
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 673.036 kB in 0.000821922 seconds, approximate data rate is 818.856 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 30 t = 300 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.011157 s
+(TIME) current walltime/simusecond 0.0011157 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:10 2021
+
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 30 t = 300
+
+Wed Dec  1 13:50:07 2021 
+(writeGrid) Wrote 703.996 kB in 0.000674831 seconds, approximate data rate is 1.04322 GB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:07 2021 
+(LB): Start load balance, tstep = 30 t = 300
+
+Wed Dec  1 13:50:07 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:07 2021 
+---------- tstep = 31 t = 310 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:07 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 31 t = 310
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 683.872 kB in 0.000700701 seconds, approximate data rate is 975.983 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 32 t = 320 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 32 t = 320
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 689.032 kB in 0.000778213 seconds, approximate data rate is 885.403 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 33 t = 330 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 33 t = 330
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 695.74 kB in 0.000823432 seconds, approximate data rate is 844.927 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 34 t = 340 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 34 t = 340
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 696.256 kB in 0.000698791 seconds, approximate data rate is 996.372 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 35 t = 350 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 35 t = 350
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 680.26 kB in 0.000741031 seconds, approximate data rate is 917.991 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 36 t = 360 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 36 t = 360
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 671.488 kB in 0.000706102 seconds, approximate data rate is 950.979 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 37 t = 370 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 37 t = 370
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 691.612 kB in 0.000757692 seconds, approximate data rate is 912.788 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 38 t = 380 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 38 t = 380
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 676.648 kB in 0.000733273 seconds, approximate data rate is 922.778 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 39 t = 390 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 39 t = 390
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 682.324 kB in 0.000722492 seconds, approximate data rate is 944.404 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 40 t = 400 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0109955 s
+(TIME) current walltime/simusecond 0.00109955 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 40 t = 400
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 674.068 kB in 0.000665701 seconds, approximate data rate is 1.01257 GB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+(LB): Start load balance, tstep = 40 t = 400
+
+Wed Dec  1 13:50:08 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 41 t = 410 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 41 t = 410
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 689.032 kB in 0.000685551 seconds, approximate data rate is 1.00508 GB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 42 t = 420 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 42 t = 420
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 666.844 kB in 0.000752081 seconds, approximate data rate is 886.665 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 43 t = 430 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 43 t = 430
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 684.904 kB in 0.000734682 seconds, approximate data rate is 932.246 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 44 t = 440 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 44 t = 440
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 667.876 kB in 0.000785731 seconds, approximate data rate is 850.006 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 45 t = 450 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 45 t = 450
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 674.068 kB in 0.00071658 seconds, approximate data rate is 940.674 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 46 t = 460 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 46 t = 460
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 676.132 kB in 0.000684663 seconds, approximate data rate is 987.54 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 47 t = 470 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 47 t = 470
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 675.1 kB in 0.00066393 seconds, approximate data rate is 1.01682 GB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 48 t = 480 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 48 t = 480
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 676.132 kB in 0.000755702 seconds, approximate data rate is 894.707 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 49 t = 490 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 49 t = 490
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 675.616 kB in 0.000731862 seconds, approximate data rate is 923.147 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 50 t = 500 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0109099 s
+(TIME) current walltime/simusecond 0.00109099 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 50 t = 500
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 668.908 kB in 0.000701171 seconds, approximate data rate is 953.987 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+(LB): Start load balance, tstep = 50 t = 500
+
+Wed Dec  1 13:50:08 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 51 t = 510 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 51 t = 510
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 669.424 kB in 0.000713372 seconds, approximate data rate is 938.394 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 52 t = 520 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 52 t = 520
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 660.652 kB in 0.000676862 seconds, approximate data rate is 976.051 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 53 t = 530 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 53 t = 530
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 669.94 kB in 0.000699902 seconds, approximate data rate is 957.191 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 54 t = 540 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 54 t = 540
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 671.488 kB in 0.000671661 seconds, approximate data rate is 999.742 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 55 t = 550 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 55 t = 550
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 653.944 kB in 0.00069858 seconds, approximate data rate is 936.105 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 56 t = 560 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 56 t = 560
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 659.62 kB in 0.000736361 seconds, approximate data rate is 895.783 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 57 t = 570 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 57 t = 570
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 654.976 kB in 0.00070732 seconds, approximate data rate is 925.997 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 58 t = 580 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 58 t = 580
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 653.428 kB in 0.00066945 seconds, approximate data rate is 976.067 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 59 t = 590 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 59 t = 590
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 669.94 kB in 0.000739072 seconds, approximate data rate is 906.461 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 60 t = 600 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0107286 s
+(TIME) current walltime/simusecond 0.00107286 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 60 t = 600
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 647.236 kB in 0.000732251 seconds, approximate data rate is 883.899 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+(LB): Start load balance, tstep = 60 t = 600
+
+Wed Dec  1 13:50:08 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 61 t = 610 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 61 t = 610
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 651.364 kB in 0.000655011 seconds, approximate data rate is 994.432 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 62 t = 620 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 62 t = 620
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 651.88 kB in 0.000696012 seconds, approximate data rate is 936.593 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 63 t = 630 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 63 t = 630
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 644.656 kB in 0.000731121 seconds, approximate data rate is 881.736 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 64 t = 640 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 64 t = 640
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 653.428 kB in 0.000705381 seconds, approximate data rate is 926.348 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 65 t = 650 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 65 t = 650
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 652.396 kB in 0.000740971 seconds, approximate data rate is 880.461 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 66 t = 660 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 66 t = 660
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 640.012 kB in 0.00073726 seconds, approximate data rate is 868.095 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 67 t = 670 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 67 t = 670
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 646.72 kB in 0.00073171 seconds, approximate data rate is 883.847 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 68 t = 680 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 68 t = 680
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 646.204 kB in 0.000676071 seconds, approximate data rate is 955.823 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 69 t = 690 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 69 t = 690
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 641.044 kB in 0.00072774 seconds, approximate data rate is 880.87 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 70 t = 700 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0105693 s
+(TIME) current walltime/simusecond 0.00105693 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 70 t = 700
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 640.012 kB in 0.000702162 seconds, approximate data rate is 911.488 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+(LB): Start load balance, tstep = 70 t = 700
+
+Wed Dec  1 13:50:08 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 71 t = 710 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 71 t = 710
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 649.3 kB in 0.000724464 seconds, approximate data rate is 896.249 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 72 t = 720 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 72 t = 720
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 645.172 kB in 0.000655462 seconds, approximate data rate is 984.301 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 73 t = 730 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 73 t = 730
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 627.628 kB in 0.00069257 seconds, approximate data rate is 906.23 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 74 t = 740 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 74 t = 740
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 638.98 kB in 0.000695742 seconds, approximate data rate is 918.415 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 75 t = 750 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 75 t = 750
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 632.272 kB in 0.000692921 seconds, approximate data rate is 912.473 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 76 t = 760 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 76 t = 760
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 636.4 kB in 0.000741342 seconds, approximate data rate is 858.443 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 77 t = 770 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 77 t = 770
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 632.272 kB in 0.00070946 seconds, approximate data rate is 891.202 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 78 t = 780 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 78 t = 780
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 628.144 kB in 0.000672932 seconds, approximate data rate is 933.443 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 79 t = 790 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 79 t = 790
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 628.144 kB in 0.00064044 seconds, approximate data rate is 980.801 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 80 t = 800 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0103954 s
+(TIME) current walltime/simusecond 0.00103954 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:10 2021
+
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 80 t = 800
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 624.532 kB in 0.00069171 seconds, approximate data rate is 902.881 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+(LB): Start load balance, tstep = 80 t = 800
+
+Wed Dec  1 13:50:08 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 81 t = 810 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 81 t = 810
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 626.596 kB in 0.000697941 seconds, approximate data rate is 897.778 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 82 t = 820 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 82 t = 820
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 627.628 kB in 0.000715632 seconds, approximate data rate is 877.026 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 83 t = 830 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 83 t = 830
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 617.824 kB in 0.000711661 seconds, approximate data rate is 868.144 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 84 t = 840 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 84 t = 840
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 627.628 kB in 0.00069843 seconds, approximate data rate is 898.627 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 85 t = 850 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 85 t = 850
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 623.5 kB in 0.000701912 seconds, approximate data rate is 888.288 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 86 t = 860 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 86 t = 860
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 620.404 kB in 0.00065052 seconds, approximate data rate is 953.705 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 87 t = 870 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 87 t = 870
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 620.404 kB in 0.00069979 seconds, approximate data rate is 886.557 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 88 t = 880 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 88 t = 880
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 622.984 kB in 0.00083048 seconds, approximate data rate is 750.149 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 89 t = 890 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 89 t = 890
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 615.244 kB in 0.000796761 seconds, approximate data rate is 772.181 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 90 t = 900 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0110341 s
+(TIME) current walltime/simusecond 0.00110341 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:10 2021
+
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 90 t = 900
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 632.272 kB in 0.000937822 seconds, approximate data rate is 674.192 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+(LB): Start load balance, tstep = 90 t = 900
+
+Wed Dec  1 13:50:08 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 91 t = 910 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 91 t = 910
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 620.92 kB in 0.000978952 seconds, approximate data rate is 634.27 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 92 t = 920 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 92 t = 920
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 600.796 kB in 0.000899652 seconds, approximate data rate is 667.809 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 93 t = 930 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 93 t = 930
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 613.696 kB in 0.00100638 seconds, approximate data rate is 609.804 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 94 t = 940 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 94 t = 940
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 618.856 kB in 0.000907991 seconds, approximate data rate is 681.566 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 95 t = 950 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 95 t = 950
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 619.372 kB in 0.00106007 seconds, approximate data rate is 584.275 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 96 t = 960 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 96 t = 960
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 611.116 kB in 0.000863061 seconds, approximate data rate is 708.08 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 97 t = 970 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 97 t = 970
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 606.472 kB in 0.00109227 seconds, approximate data rate is 555.24 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 98 t = 980 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 98 t = 980
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 603.892 kB in 0.000781892 seconds, approximate data rate is 772.347 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 99 t = 990 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 99 t = 990
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 599.248 kB in 0.000991522 seconds, approximate data rate is 604.372 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 100 t = 1000 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0146346 s
+(TIME) current walltime/simusecond 0.00146346 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 100 t = 1000
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 609.568 kB in 0.000862982 seconds, approximate data rate is 706.351 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+(LB): Start load balance, tstep = 100 t = 1000
+
+Wed Dec  1 13:50:08 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 101 t = 1010 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 101 t = 1010
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 612.664 kB in 0.000986701 seconds, approximate data rate is 620.922 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 102 t = 1020 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 102 t = 1020
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 596.152 kB in 0.000901864 seconds, approximate data rate is 661.022 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 103 t = 1030 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 103 t = 1030
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 615.244 kB in 0.000915343 seconds, approximate data rate is 672.146 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 104 t = 1040 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 104 t = 1040
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 614.212 kB in 0.000845651 seconds, approximate data rate is 726.319 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 105 t = 1050 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 105 t = 1050
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 603.376 kB in 0.00089517 seconds, approximate data rate is 674.035 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 106 t = 1060 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 106 t = 1060
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 593.056 kB in 0.000803022 seconds, approximate data rate is 738.53 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 107 t = 1070 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 107 t = 1070
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 601.828 kB in 0.00103845 seconds, approximate data rate is 579.544 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 108 t = 1080 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 108 t = 1080
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 614.728 kB in 0.000885031 seconds, approximate data rate is 694.584 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 109 t = 1090 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 109 t = 1090
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 585.832 kB in 0.00107879 seconds, approximate data rate is 543.045 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 110 t = 1100 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0145114 s
+(TIME) current walltime/simusecond 0.00145114 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 110 t = 1100
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 605.956 kB in 0.000798011 seconds, approximate data rate is 759.333 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+(LB): Start load balance, tstep = 110 t = 1100
+
+Wed Dec  1 13:50:08 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 111 t = 1110 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 111 t = 1110
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 591.508 kB in 0.00108754 seconds, approximate data rate is 543.895 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 112 t = 1120 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 112 t = 1120
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 599.764 kB in 0.000806462 seconds, approximate data rate is 743.698 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 113 t = 1130 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 113 t = 1130
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 597.184 kB in 0.000993172 seconds, approximate data rate is 601.29 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 114 t = 1140 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 114 t = 1140
+
+Wed Dec  1 13:50:08 2021 
+(writeGrid) Wrote 595.636 kB in 0.000858903 seconds, approximate data rate is 693.485 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:08 2021 
+---------- tstep = 115 t = 1150 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:08 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 115 t = 1150
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 594.604 kB in 0.00101649 seconds, approximate data rate is 584.957 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 116 t = 1160 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 116 t = 1160
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 593.056 kB in 0.00100179 seconds, approximate data rate is 591.996 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 117 t = 1170 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 117 t = 1170
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 585.316 kB in 0.000799741 seconds, approximate data rate is 731.882 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 118 t = 1180 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 118 t = 1180
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 596.668 kB in 0.000894802 seconds, approximate data rate is 666.816 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 119 t = 1190 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 119 t = 1190
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 598.732 kB in 0.000933823 seconds, approximate data rate is 641.162 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 120 t = 1200 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0141276 s
+(TIME) current walltime/simusecond 0.00141276 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 120 t = 1200
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 593.572 kB in 0.00084155 seconds, approximate data rate is 705.332 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+(LB): Start load balance, tstep = 120 t = 1200
+
+Wed Dec  1 13:50:09 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 121 t = 1210 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 121 t = 1210
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 602.86 kB in 0.00104012 seconds, approximate data rate is 579.606 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 122 t = 1220 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 122 t = 1220
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 590.992 kB in 0.000769761 seconds, approximate data rate is 767.76 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 123 t = 1230 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 123 t = 1230
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 589.444 kB in 0.000982863 seconds, approximate data rate is 599.721 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 124 t = 1240 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 124 t = 1240
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 578.608 kB in 0.000860382 seconds, approximate data rate is 672.501 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 125 t = 1250 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 125 t = 1250
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 582.736 kB in 0.00087195 seconds, approximate data rate is 668.314 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 126 t = 1260 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 126 t = 1260
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 574.48 kB in 0.000914091 seconds, approximate data rate is 628.471 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 127 t = 1270 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 127 t = 1270
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 573.964 kB in 0.000850702 seconds, approximate data rate is 674.695 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 128 t = 1280 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 128 t = 1280
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 578.092 kB in 0.000952062 seconds, approximate data rate is 607.2 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 129 t = 1290 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 129 t = 1290
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 580.156 kB in 0.00085094 seconds, approximate data rate is 681.782 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 130 t = 1300 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0138209 s
+(TIME) current walltime/simusecond 0.00138209 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 130 t = 1300
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 568.288 kB in 0.000867491 seconds, approximate data rate is 655.094 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+(LB): Start load balance, tstep = 130 t = 1300
+
+Wed Dec  1 13:50:09 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 131 t = 1310 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 131 t = 1310
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 578.092 kB in 0.000922034 seconds, approximate data rate is 626.975 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 132 t = 1320 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 132 t = 1320
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 569.836 kB in 0.000845333 seconds, approximate data rate is 674.096 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 133 t = 1330 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 133 t = 1330
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 573.448 kB in 0.00105403 seconds, approximate data rate is 544.051 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 134 t = 1340 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 134 t = 1340
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 580.672 kB in 0.000791692 seconds, approximate data rate is 733.457 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 135 t = 1350 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 135 t = 1350
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 569.32 kB in 0.00099559 seconds, approximate data rate is 571.842 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 136 t = 1360 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 136 t = 1360
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 572.416 kB in 0.00079165 seconds, approximate data rate is 723.067 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 137 t = 1370 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 137 t = 1370
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 567.772 kB in 0.000970532 seconds, approximate data rate is 585.011 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 138 t = 1380 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 138 t = 1380
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 562.612 kB in 0.000833192 seconds, approximate data rate is 675.249 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 139 t = 1390 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 139 t = 1390
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 568.288 kB in 0.00100138 seconds, approximate data rate is 567.504 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 140 t = 1400 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0139069 s
+(TIME) current walltime/simusecond 0.00139069 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 140 t = 1400
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 570.352 kB in 0.000856522 seconds, approximate data rate is 665.893 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+(LB): Start load balance, tstep = 140 t = 1400
+
+Wed Dec  1 13:50:09 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 141 t = 1410 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 141 t = 1410
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 559 kB in 0.00078897 seconds, approximate data rate is 708.519 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 142 t = 1420 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 142 t = 1420
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 574.48 kB in 0.000926401 seconds, approximate data rate is 620.12 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 143 t = 1430 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 143 t = 1430
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 561.064 kB in 0.000847232 seconds, approximate data rate is 662.232 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 144 t = 1440 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 144 t = 1440
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 568.288 kB in 0.000794133 seconds, approximate data rate is 715.608 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 145 t = 1450 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 145 t = 1450
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 573.964 kB in 0.000883241 seconds, approximate data rate is 649.838 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 146 t = 1460 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 146 t = 1460
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 582.22 kB in 0.000951461 seconds, approximate data rate is 611.922 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 147 t = 1470 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 147 t = 1470
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 553.324 kB in 0.000784202 seconds, approximate data rate is 705.589 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 148 t = 1480 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 148 t = 1480
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 564.676 kB in 0.000904571 seconds, approximate data rate is 624.247 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 149 t = 1490 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 149 t = 1490
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 574.48 kB in 0.000819762 seconds, approximate data rate is 700.789 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 150 t = 1500 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0136543 s
+(TIME) current walltime/simusecond 0.00136543 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 150 t = 1500
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 555.388 kB in 0.000995141 seconds, approximate data rate is 558.1 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+(LB): Start load balance, tstep = 150 t = 1500
+
+Wed Dec  1 13:50:09 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 151 t = 1510 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 151 t = 1510
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 546.1 kB in 0.000810263 seconds, approximate data rate is 673.979 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 152 t = 1520 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 152 t = 1520
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 546.1 kB in 0.000905902 seconds, approximate data rate is 602.825 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 153 t = 1530 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 153 t = 1530
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 560.032 kB in 0.00081039 seconds, approximate data rate is 691.065 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 154 t = 1540 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 154 t = 1540
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 567.772 kB in 0.000776242 seconds, approximate data rate is 731.437 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 155 t = 1550 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 155 t = 1550
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 569.836 kB in 0.00092098 seconds, approximate data rate is 618.728 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 156 t = 1560 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 156 t = 1560
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 562.612 kB in 0.000834082 seconds, approximate data rate is 674.528 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 157 t = 1570 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 157 t = 1570
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 567.256 kB in 0.00106661 seconds, approximate data rate is 531.83 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 158 t = 1580 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 158 t = 1580
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 543.004 kB in 0.000780781 seconds, approximate data rate is 695.463 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 159 t = 1590 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 159 t = 1590
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 545.584 kB in 0.000893871 seconds, approximate data rate is 610.361 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 160 t = 1600 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0136779 s
+(TIME) current walltime/simusecond 0.00136779 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 160 t = 1600
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 557.968 kB in 0.000842621 seconds, approximate data rate is 662.181 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+(LB): Start load balance, tstep = 160 t = 1600
+
+Wed Dec  1 13:50:09 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 161 t = 1610 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 161 t = 1610
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 575.512 kB in 0.000990911 seconds, approximate data rate is 580.791 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 162 t = 1620 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 162 t = 1620
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 550.228 kB in 0.00080004 seconds, approximate data rate is 687.751 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 163 t = 1630 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 163 t = 1630
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 531.136 kB in 0.000975341 seconds, approximate data rate is 544.564 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 164 t = 1640 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 164 t = 1640
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 545.068 kB in 0.00107519 seconds, approximate data rate is 506.949 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 165 t = 1650 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 165 t = 1650
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 557.968 kB in 0.00097313 seconds, approximate data rate is 573.375 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 166 t = 1660 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 166 t = 1660
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 530.62 kB in 0.000799962 seconds, approximate data rate is 663.307 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 167 t = 1670 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 167 t = 1670
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 556.42 kB in 0.000842844 seconds, approximate data rate is 660.17 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 168 t = 1680 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 168 t = 1680
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 553.84 kB in 0.00088575 seconds, approximate data rate is 625.278 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 169 t = 1690 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 169 t = 1690
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 551.26 kB in 0.000779313 seconds, approximate data rate is 707.367 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 170 t = 1700 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0132344 s
+(TIME) current walltime/simusecond 0.00132344 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 170 t = 1700
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 554.356 kB in 0.00104875 seconds, approximate data rate is 528.586 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+(LB): Start load balance, tstep = 170 t = 1700
+
+Wed Dec  1 13:50:09 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 171 t = 1710 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 171 t = 1710
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 545.068 kB in 0.00102918 seconds, approximate data rate is 529.613 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 172 t = 1720 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 172 t = 1720
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 537.844 kB in 0.000872511 seconds, approximate data rate is 616.432 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 173 t = 1730 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 173 t = 1730
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 531.652 kB in 0.000775091 seconds, approximate data rate is 685.922 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 174 t = 1740 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 174 t = 1740
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 553.84 kB in 0.000888841 seconds, approximate data rate is 623.104 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 175 t = 1750 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 175 t = 1750
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 545.068 kB in 0.000795862 seconds, approximate data rate is 684.878 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 176 t = 1760 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 176 t = 1760
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 537.328 kB in 0.00101018 seconds, approximate data rate is 531.912 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 177 t = 1770 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 177 t = 1770
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 535.78 kB in 0.00083405 seconds, approximate data rate is 642.384 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 178 t = 1780 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 178 t = 1780
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 555.388 kB in 0.000922201 seconds, approximate data rate is 602.242 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 179 t = 1790 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 179 t = 1790
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 532.168 kB in 0.000823661 seconds, approximate data rate is 646.101 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 180 t = 1800 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0135563 s
+(TIME) current walltime/simusecond 0.00135563 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 180 t = 1800
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 538.876 kB in 0.00101257 seconds, approximate data rate is 532.185 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+(LB): Start load balance, tstep = 180 t = 1800
+
+Wed Dec  1 13:50:09 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 181 t = 1810 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 181 t = 1810
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 565.708 kB in 0.000835701 seconds, approximate data rate is 676.926 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 182 t = 1820 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 182 t = 1820
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 540.94 kB in 0.000859852 seconds, approximate data rate is 629.108 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 183 t = 1830 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 183 t = 1830
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 529.072 kB in 0.000869791 seconds, approximate data rate is 608.275 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 184 t = 1840 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 184 t = 1840
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 538.876 kB in 0.000910632 seconds, approximate data rate is 591.76 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 185 t = 1850 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 185 t = 1850
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 543.52 kB in 0.000849051 seconds, approximate data rate is 640.15 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 186 t = 1860 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 186 t = 1860
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 525.46 kB in 0.000977131 seconds, approximate data rate is 537.758 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 187 t = 1870 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 187 t = 1870
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 523.912 kB in 0.000831041 seconds, approximate data rate is 630.429 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:09 2021 
+---------- tstep = 188 t = 1880 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:09 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 188 t = 1880
+
+Wed Dec  1 13:50:09 2021 
+(writeGrid) Wrote 514.624 kB in 0.00085678 seconds, approximate data rate is 600.649 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 189 t = 1890 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 189 t = 1890
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 533.2 kB in 0.00101325 seconds, approximate data rate is 526.225 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 190 t = 1900 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0134597 s
+(TIME) current walltime/simusecond 0.00134597 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 190 t = 1900
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 550.744 kB in 0.00084015 seconds, approximate data rate is 655.531 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+(LB): Start load balance, tstep = 190 t = 1900
+
+Wed Dec  1 13:50:10 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 191 t = 1910 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 191 t = 1910
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 550.744 kB in 0.000942412 seconds, approximate data rate is 584.398 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 192 t = 1920 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 192 t = 1920
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 530.104 kB in 0.000736132 seconds, approximate data rate is 720.121 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 193 t = 1930 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 193 t = 1930
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 534.748 kB in 0.000962172 seconds, approximate data rate is 555.772 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 194 t = 1940 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 194 t = 1940
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 520.816 kB in 0.000812011 seconds, approximate data rate is 641.39 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 195 t = 1950 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 195 t = 1950
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 524.428 kB in 0.000951572 seconds, approximate data rate is 551.118 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 196 t = 1960 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 196 t = 1960
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 518.236 kB in 0.000841063 seconds, approximate data rate is 616.168 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 197 t = 1970 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 197 t = 1970
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 543.004 kB in 0.000838981 seconds, approximate data rate is 647.218 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 198 t = 1980 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 198 t = 1980
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 532.168 kB in 0.000959511 seconds, approximate data rate is 554.624 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 199 t = 1990 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 199 t = 1990
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 512.044 kB in 0.000845672 seconds, approximate data rate is 605.488 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 200 t = 2000 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0133096 s
+(TIME) current walltime/simusecond 0.00133096 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 200 t = 2000
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 529.588 kB in 0.000921272 seconds, approximate data rate is 574.844 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+(LB): Start load balance, tstep = 200 t = 2000
+
+Wed Dec  1 13:50:10 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 201 t = 2010 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 201 t = 2010
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 531.652 kB in 0.000847262 seconds, approximate data rate is 627.494 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 202 t = 2020 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 202 t = 2020
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 513.076 kB in 0.00084459 seconds, approximate data rate is 607.485 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 203 t = 2030 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 203 t = 2030
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 533.716 kB in 0.000829731 seconds, approximate data rate is 643.24 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 204 t = 2040 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 204 t = 2040
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 545.068 kB in 0.000965553 seconds, approximate data rate is 564.514 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 205 t = 2050 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 205 t = 2050
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 535.78 kB in 0.000856471 seconds, approximate data rate is 625.567 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 206 t = 2060 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 206 t = 2060
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 525.976 kB in 0.000786252 seconds, approximate data rate is 668.966 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 207 t = 2070 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 207 t = 2070
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 506.884 kB in 0.000943471 seconds, approximate data rate is 537.254 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 208 t = 2080 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 208 t = 2080
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 505.336 kB in 0.000809364 seconds, approximate data rate is 624.362 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 209 t = 2090 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 209 t = 2090
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 511.012 kB in 0.00102767 seconds, approximate data rate is 497.252 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 210 t = 2100 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0133591 s
+(TIME) current walltime/simusecond 0.00133591 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 210 t = 2100
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 539.392 kB in 0.000768501 seconds, approximate data rate is 701.875 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+(LB): Start load balance, tstep = 210 t = 2100
+
+Wed Dec  1 13:50:10 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 211 t = 2110 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 211 t = 2110
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 524.428 kB in 0.00107277 seconds, approximate data rate is 488.853 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 212 t = 2120 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 212 t = 2120
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 523.912 kB in 0.00102613 seconds, approximate data rate is 510.57 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 213 t = 2130 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 213 t = 2130
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 514.108 kB in 0.00085484 seconds, approximate data rate is 601.408 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 214 t = 2140 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 214 t = 2140
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 535.264 kB in 0.000834962 seconds, approximate data rate is 641.064 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 215 t = 2150 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 215 t = 2150
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 508.948 kB in 0.000890162 seconds, approximate data rate is 571.748 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 216 t = 2160 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 216 t = 2160
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 512.044 kB in 0.000836621 seconds, approximate data rate is 612.038 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 217 t = 2170 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 217 t = 2170
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 545.584 kB in 0.00090938 seconds, approximate data rate is 599.952 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 218 t = 2180 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 218 t = 2180
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 518.236 kB in 0.000759412 seconds, approximate data rate is 682.417 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 219 t = 2190 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 219 t = 2190
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 510.496 kB in 0.000997933 seconds, approximate data rate is 511.553 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 220 t = 2200 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0135821 s
+(TIME) current walltime/simusecond 0.00135821 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 220 t = 2200
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 517.72 kB in 0.000834973 seconds, approximate data rate is 620.044 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+(LB): Start load balance, tstep = 220 t = 2200
+
+Wed Dec  1 13:50:10 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 221 t = 2210 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 221 t = 2210
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 517.72 kB in 0.000988471 seconds, approximate data rate is 523.758 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 222 t = 2220 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 222 t = 2220
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 506.368 kB in 0.000792931 seconds, approximate data rate is 638.603 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 223 t = 2230 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 223 t = 2230
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 512.044 kB in 0.00100916 seconds, approximate data rate is 507.395 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 224 t = 2240 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 224 t = 2240
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 490.888 kB in 0.000809201 seconds, approximate data rate is 606.633 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 225 t = 2250 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 225 t = 2250
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 514.624 kB in 0.000961212 seconds, approximate data rate is 535.391 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 226 t = 2260 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 226 t = 2260
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 524.944 kB in 0.00078169 seconds, approximate data rate is 671.55 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 227 t = 2270 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 227 t = 2270
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 535.264 kB in 0.00086497 seconds, approximate data rate is 618.824 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 228 t = 2280 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 228 t = 2280
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 499.66 kB in 0.000794111 seconds, approximate data rate is 629.207 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 229 t = 2290 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 229 t = 2290
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 519.268 kB in 0.00102526 seconds, approximate data rate is 506.473 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 230 t = 2300 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0132615 s
+(TIME) current walltime/simusecond 0.00132615 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 230 t = 2300
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 504.82 kB in 0.00084263 seconds, approximate data rate is 599.1 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+(LB): Start load balance, tstep = 230 t = 2300
+
+Wed Dec  1 13:50:10 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 231 t = 2310 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 231 t = 2310
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 498.112 kB in 0.000980012 seconds, approximate data rate is 508.271 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 232 t = 2320 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 232 t = 2320
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 498.112 kB in 0.000877891 seconds, approximate data rate is 567.396 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 233 t = 2330 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 233 t = 2330
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 523.912 kB in 0.00087439 seconds, approximate data rate is 599.174 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 234 t = 2340 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 234 t = 2340
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 512.044 kB in 0.000917691 seconds, approximate data rate is 557.97 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 235 t = 2350 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 235 t = 2350
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 492.952 kB in 0.000803021 seconds, approximate data rate is 613.872 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 236 t = 2360 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 236 t = 2360
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 510.496 kB in 0.000953204 seconds, approximate data rate is 535.558 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 237 t = 2370 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 237 t = 2370
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 506.884 kB in 0.000823271 seconds, approximate data rate is 615.695 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 238 t = 2380 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 238 t = 2380
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 501.724 kB in 0.000990803 seconds, approximate data rate is 506.381 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 239 t = 2390 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 239 t = 2390
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 505.336 kB in 0.000998761 seconds, approximate data rate is 505.963 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 240 t = 2400 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0132663 s
+(TIME) current walltime/simusecond 0.00132663 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 240 t = 2400
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 509.98 kB in 0.000826342 seconds, approximate data rate is 617.154 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+(LB): Start load balance, tstep = 240 t = 2400
+
+Wed Dec  1 13:50:10 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 241 t = 2410 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 241 t = 2410
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 506.884 kB in 0.000830582 seconds, approximate data rate is 610.276 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 242 t = 2420 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 242 t = 2420
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 505.852 kB in 0.000839341 seconds, approximate data rate is 602.678 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 243 t = 2430 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 243 t = 2430
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 504.82 kB in 0.000836763 seconds, approximate data rate is 603.301 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 244 t = 2440 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 244 t = 2440
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 497.596 kB in 0.000910321 seconds, approximate data rate is 546.616 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 245 t = 2450 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 245 t = 2450
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 493.984 kB in 0.00079332 seconds, approximate data rate is 622.679 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 246 t = 2460 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 246 t = 2460
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 516.688 kB in 0.00100235 seconds, approximate data rate is 515.476 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 247 t = 2470 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 247 t = 2470
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 509.98 kB in 0.000787251 seconds, approximate data rate is 647.798 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 248 t = 2480 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 248 t = 2480
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 500.176 kB in 0.000914001 seconds, approximate data rate is 547.238 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 249 t = 2490 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 249 t = 2490
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 494.5 kB in 0.00082596 seconds, approximate data rate is 598.697 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 250 t = 2500 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0131117 s
+(TIME) current walltime/simusecond 0.00131117 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 250 t = 2500
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 501.208 kB in 0.000762711 seconds, approximate data rate is 657.14 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+(LB): Start load balance, tstep = 250 t = 2500
+
+Wed Dec  1 13:50:10 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 251 t = 2510 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 251 t = 2510
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 496.564 kB in 0.000899481 seconds, approximate data rate is 552.056 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 252 t = 2520 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 252 t = 2520
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 501.724 kB in 0.000830532 seconds, approximate data rate is 604.1 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 253 t = 2530 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 253 t = 2530
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 522.364 kB in 0.00109042 seconds, approximate data rate is 479.048 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 254 t = 2540 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 254 t = 2540
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 500.692 kB in 0.000892952 seconds, approximate data rate is 560.715 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 255 t = 2550 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 255 t = 2550
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 497.596 kB in 0.000921212 seconds, approximate data rate is 540.154 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 256 t = 2560 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 256 t = 2560
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 502.24 kB in 0.00074204 seconds, approximate data rate is 676.837 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 257 t = 2570 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 257 t = 2570
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 500.176 kB in 0.000868153 seconds, approximate data rate is 576.138 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 258 t = 2580 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 258 t = 2580
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 486.76 kB in 0.000816064 seconds, approximate data rate is 596.473 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 259 t = 2590 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 259 t = 2590
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 498.628 kB in 0.000866721 seconds, approximate data rate is 575.304 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 260 t = 2600 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0131149 s
+(TIME) current walltime/simusecond 0.00131149 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 260 t = 2600
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 488.824 kB in 0.00083321 seconds, approximate data rate is 586.676 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+(LB): Start load balance, tstep = 260 t = 2600
+
+Wed Dec  1 13:50:10 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 261 t = 2610 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 261 t = 2610
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 504.82 kB in 0.00100844 seconds, approximate data rate is 500.594 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 262 t = 2620 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 262 t = 2620
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 492.952 kB in 0.00074322 seconds, approximate data rate is 663.265 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 263 t = 2630 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 263 t = 2630
+
+Wed Dec  1 13:50:10 2021 
+(writeGrid) Wrote 506.368 kB in 0.00098774 seconds, approximate data rate is 512.653 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:10 2021 
+---------- tstep = 264 t = 2640 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:10 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 264 t = 2640
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 488.308 kB in 0.00080583 seconds, approximate data rate is 605.969 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 265 t = 2650 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 265 t = 2650
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 504.304 kB in 0.00083717 seconds, approximate data rate is 602.391 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 266 t = 2660 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 266 t = 2660
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 487.792 kB in 0.000813391 seconds, approximate data rate is 599.702 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 267 t = 2670 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 267 t = 2670
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 492.436 kB in 0.000841662 seconds, approximate data rate is 585.076 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 268 t = 2680 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 268 t = 2680
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 488.308 kB in 0.000890152 seconds, approximate data rate is 548.567 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 269 t = 2690 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 269 t = 2690
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 492.436 kB in 0.0007386 seconds, approximate data rate is 666.715 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 270 t = 2700 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.013151 s
+(TIME) current walltime/simusecond 0.0013151 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 270 t = 2700
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 501.724 kB in 0.000952561 seconds, approximate data rate is 526.711 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+(LB): Start load balance, tstep = 270 t = 2700
+
+Wed Dec  1 13:50:11 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 271 t = 2710 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 271 t = 2710
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 489.856 kB in 0.000843221 seconds, approximate data rate is 580.934 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 272 t = 2720 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 272 t = 2720
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 503.272 kB in 0.00079756 seconds, approximate data rate is 631.015 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 273 t = 2730 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 273 t = 2730
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 489.34 kB in 0.000829542 seconds, approximate data rate is 589.892 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 274 t = 2740 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 274 t = 2740
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 491.92 kB in 0.000746022 seconds, approximate data rate is 659.391 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 275 t = 2750 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 275 t = 2750
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 491.92 kB in 0.000914421 seconds, approximate data rate is 537.958 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 276 t = 2760 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 276 t = 2760
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 485.728 kB in 0.000802163 seconds, approximate data rate is 605.523 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 277 t = 2770 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 277 t = 2770
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 500.692 kB in 0.000969983 seconds, approximate data rate is 516.186 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 278 t = 2780 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 278 t = 2780
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 490.372 kB in 0.000792661 seconds, approximate data rate is 618.64 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 279 t = 2790 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 279 t = 2790
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 490.372 kB in 0.000981161 seconds, approximate data rate is 499.787 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 280 t = 2800 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0129656 s
+(TIME) current walltime/simusecond 0.00129656 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 280 t = 2800
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 495.016 kB in 0.00100628 seconds, approximate data rate is 491.926 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+(LB): Start load balance, tstep = 280 t = 2800
+
+Wed Dec  1 13:50:11 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 281 t = 2810 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 281 t = 2810
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 491.92 kB in 0.000791862 seconds, approximate data rate is 621.219 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 282 t = 2820 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 282 t = 2820
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 500.176 kB in 0.000911252 seconds, approximate data rate is 548.889 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 283 t = 2830 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 283 t = 2830
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 508.432 kB in 0.000903441 seconds, approximate data rate is 562.773 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 284 t = 2840 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 284 t = 2840
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 501.724 kB in 0.000821693 seconds, approximate data rate is 610.598 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 285 t = 2850 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 285 t = 2850
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 488.308 kB in 0.000973012 seconds, approximate data rate is 501.852 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 286 t = 2860 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 286 t = 2860
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 497.08 kB in 0.000800233 seconds, approximate data rate is 621.169 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 287 t = 2870 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 287 t = 2870
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 495.532 kB in 0.000984671 seconds, approximate data rate is 503.246 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 288 t = 2880 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 288 t = 2880
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 498.112 kB in 0.00084124 seconds, approximate data rate is 592.116 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 289 t = 2890 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 289 t = 2890
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 504.82 kB in 0.00101306 seconds, approximate data rate is 498.311 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 290 t = 2900 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0131794 s
+(TIME) current walltime/simusecond 0.00131794 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 290 t = 2900
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 498.628 kB in 0.000829273 seconds, approximate data rate is 601.283 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+(LB): Start load balance, tstep = 290 t = 2900
+
+Wed Dec  1 13:50:11 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 291 t = 2910 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 291 t = 2910
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 481.084 kB in 0.000993381 seconds, approximate data rate is 484.29 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 292 t = 2920 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 292 t = 2920
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 498.112 kB in 0.00077455 seconds, approximate data rate is 643.099 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 293 t = 2930 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 293 t = 2930
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 487.792 kB in 0.00100804 seconds, approximate data rate is 483.9 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 294 t = 2940 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 294 t = 2940
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 486.76 kB in 0.000928293 seconds, approximate data rate is 524.36 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 295 t = 2950 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 295 t = 2950
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 492.436 kB in 0.000849452 seconds, approximate data rate is 579.71 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 296 t = 2960 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 296 t = 2960
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 481.084 kB in 0.000819512 seconds, approximate data rate is 587.037 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 297 t = 2970 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 297 t = 2970
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 492.952 kB in 0.000894922 seconds, approximate data rate is 550.832 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 298 t = 2980 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 298 t = 2980
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 483.664 kB in 0.000796973 seconds, approximate data rate is 606.876 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 299 t = 2990 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 299 t = 2990
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 490.372 kB in 0.000832461 seconds, approximate data rate is 589.063 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 300 t = 3000 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0130626 s
+(TIME) current walltime/simusecond 0.00130626 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 300 t = 3000
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 492.436 kB in 0.00125469 seconds, approximate data rate is 392.475 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+(LB): Start load balance, tstep = 300 t = 3000
+
+Wed Dec  1 13:50:11 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 301 t = 3010 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 301 t = 3010
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 490.372 kB in 0.0008634 seconds, approximate data rate is 567.955 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 302 t = 3020 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 302 t = 3020
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 494.5 kB in 0.000748724 seconds, approximate data rate is 660.457 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 303 t = 3030 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 303 t = 3030
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 493.468 kB in 0.000919642 seconds, approximate data rate is 536.587 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 304 t = 3040 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 304 t = 3040
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 486.244 kB in 0.00077942 seconds, approximate data rate is 623.854 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 305 t = 3050 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 305 t = 3050
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 474.376 kB in 0.000760035 seconds, approximate data rate is 624.15 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 306 t = 3060 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 306 t = 3060
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 505.336 kB in 0.00082386 seconds, approximate data rate is 613.376 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 307 t = 3070 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 307 t = 3070
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 484.696 kB in 0.000847671 seconds, approximate data rate is 571.797 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 308 t = 3080 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 308 t = 3080
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 489.856 kB in 0.000743121 seconds, approximate data rate is 659.187 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 309 t = 3090 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 309 t = 3090
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 491.92 kB in 0.000908672 seconds, approximate data rate is 541.361 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 310 t = 3100 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0130164 s
+(TIME) current walltime/simusecond 0.00130164 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 310 t = 3100
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 495.016 kB in 0.000805292 seconds, approximate data rate is 614.704 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+(LB): Start load balance, tstep = 310 t = 3100
+
+Wed Dec  1 13:50:11 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 311 t = 3110 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 311 t = 3110
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 487.792 kB in 0.000813701 seconds, approximate data rate is 599.473 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 312 t = 3120 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 312 t = 3120
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 486.244 kB in 0.000882932 seconds, approximate data rate is 550.715 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 313 t = 3130 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 313 t = 3130
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 491.92 kB in 0.000790123 seconds, approximate data rate is 622.587 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 314 t = 3140 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 314 t = 3140
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 487.792 kB in 0.000866571 seconds, approximate data rate is 562.899 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 315 t = 3150 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 315 t = 3150
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 491.404 kB in 0.000816821 seconds, approximate data rate is 601.605 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 316 t = 3160 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 316 t = 3160
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 491.404 kB in 0.000929761 seconds, approximate data rate is 528.527 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 317 t = 3170 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 317 t = 3170
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 497.08 kB in 0.000800922 seconds, approximate data rate is 620.635 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 318 t = 3180 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 318 t = 3180
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 490.888 kB in 0.000833661 seconds, approximate data rate is 588.834 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 319 t = 3190 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 319 t = 3190
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 499.66 kB in 0.000842992 seconds, approximate data rate is 592.722 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 320 t = 3200 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0129181 s
+(TIME) current walltime/simusecond 0.00129181 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 320 t = 3200
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 502.24 kB in 0.000796833 seconds, approximate data rate is 630.295 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+(LB): Start load balance, tstep = 320 t = 3200
+
+Wed Dec  1 13:50:11 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 321 t = 3210 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 321 t = 3210
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 489.34 kB in 0.00102478 seconds, approximate data rate is 477.506 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 322 t = 3220 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 322 t = 3220
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 488.824 kB in 0.000833806 seconds, approximate data rate is 586.256 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 323 t = 3230 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 323 t = 3230
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 500.692 kB in 0.000882883 seconds, approximate data rate is 567.11 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 324 t = 3240 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 324 t = 3240
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 497.08 kB in 0.000817584 seconds, approximate data rate is 607.986 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 325 t = 3250 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 325 t = 3250
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 496.048 kB in 0.000942451 seconds, approximate data rate is 526.338 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 326 t = 3260 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 326 t = 3260
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 496.564 kB in 0.000774801 seconds, approximate data rate is 640.892 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 327 t = 3270 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 327 t = 3270
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 480.052 kB in 0.000884131 seconds, approximate data rate is 542.965 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 328 t = 3280 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 328 t = 3280
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 498.628 kB in 0.000788632 seconds, approximate data rate is 632.27 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 329 t = 3290 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 329 t = 3290
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 493.468 kB in 0.000781932 seconds, approximate data rate is 631.088 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 330 t = 3300 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0130149 s
+(TIME) current walltime/simusecond 0.00130149 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 330 t = 3300
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 493.984 kB in 0.000930632 seconds, approximate data rate is 530.805 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+(LB): Start load balance, tstep = 330 t = 3300
+
+Wed Dec  1 13:50:11 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 331 t = 3310 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 331 t = 3310
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 491.92 kB in 0.000799101 seconds, approximate data rate is 615.592 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 332 t = 3320 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 332 t = 3320
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 480.568 kB in 0.000857514 seconds, approximate data rate is 560.42 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 333 t = 3330 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 333 t = 3330
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 494.5 kB in 0.000760261 seconds, approximate data rate is 650.435 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 334 t = 3340 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 334 t = 3340
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 483.148 kB in 0.000893733 seconds, approximate data rate is 540.595 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 335 t = 3350 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 335 t = 3350
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 487.792 kB in 0.00106817 seconds, approximate data rate is 456.661 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 336 t = 3360 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 336 t = 3360
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 480.052 kB in 0.000794742 seconds, approximate data rate is 604.035 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 337 t = 3370 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 337 t = 3370
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 487.276 kB in 0.00073749 seconds, approximate data rate is 660.722 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 338 t = 3380 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 338 t = 3380
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 491.92 kB in 0.000857172 seconds, approximate data rate is 573.887 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 339 t = 3390 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 339 t = 3390
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 486.244 kB in 0.000747223 seconds, approximate data rate is 650.735 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+---------- tstep = 340 t = 3400 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0129563 s
+(TIME) current walltime/simusecond 0.00129563 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:11 2021
+
+
+Wed Dec  1 13:50:11 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 340 t = 3400
+
+Wed Dec  1 13:50:11 2021 
+(writeGrid) Wrote 502.24 kB in 0.000885492 seconds, approximate data rate is 567.188 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:11 2021 
+(LB): Start load balance, tstep = 340 t = 3400
+
+Wed Dec  1 13:50:11 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 341 t = 3410 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 341 t = 3410
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 477.472 kB in 0.000818632 seconds, approximate data rate is 583.256 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 342 t = 3420 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 342 t = 3420
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 497.596 kB in 0.00086985 seconds, approximate data rate is 572.048 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 343 t = 3430 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 343 t = 3430
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 496.048 kB in 0.00076001 seconds, approximate data rate is 652.686 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 344 t = 3440 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 344 t = 3440
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 486.244 kB in 0.000928093 seconds, approximate data rate is 523.917 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 345 t = 3450 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 345 t = 3450
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 488.308 kB in 0.00080058 seconds, approximate data rate is 609.943 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 346 t = 3460 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 346 t = 3460
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 500.176 kB in 0.000846643 seconds, approximate data rate is 590.776 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 347 t = 3470 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 347 t = 3470
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 486.76 kB in 0.000836381 seconds, approximate data rate is 581.984 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 348 t = 3480 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 348 t = 3480
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 488.308 kB in 0.000842671 seconds, approximate data rate is 579.476 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 349 t = 3490 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 349 t = 3490
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 489.856 kB in 0.000781871 seconds, approximate data rate is 626.518 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 350 t = 3500 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0132288 s
+(TIME) current walltime/simusecond 0.00132288 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 350 t = 3500
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 490.888 kB in 0.000939671 seconds, approximate data rate is 522.404 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+(LB): Start load balance, tstep = 350 t = 3500
+
+Wed Dec  1 13:50:12 2021 
+(LB): ... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 351 t = 3510 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 351 t = 3510
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 492.436 kB in 0.000770581 seconds, approximate data rate is 639.045 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 352 t = 3520 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 352 t = 3520
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 492.952 kB in 0.00082054 seconds, approximate data rate is 600.765 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 353 t = 3530 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 353 t = 3530
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 495.016 kB in 0.000844712 seconds, approximate data rate is 586.017 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 354 t = 3540 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 354 t = 3540
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 490.372 kB in 0.000731392 seconds, approximate data rate is 670.464 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 355 t = 3550 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 355 t = 3550
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 498.112 kB in 0.000933541 seconds, approximate data rate is 533.573 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 356 t = 3560 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 356 t = 3560
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 501.208 kB in 0.000793612 seconds, approximate data rate is 631.553 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 357 t = 3570 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 357 t = 3570
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 489.34 kB in 0.00096928 seconds, approximate data rate is 504.849 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 358 t = 3580 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 358 t = 3580
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 483.664 kB in 0.000779862 seconds, approximate data rate is 620.192 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 359 t = 3590 dt = 10 FS cycles = 1 ----------
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 359 t = 3590
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 501.208 kB in 0.000974443 seconds, approximate data rate is 514.353 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+---------- tstep = 360 t = 3600 dt = 10 FS cycles = 1 ----------
+(TIME) current walltime/step 0.0129297 s
+(TIME) current walltime/simusecond 0.00129297 s
+(TIME) Estimated completion time is Wed Dec  1 13:50:12 2021
+
+
+Wed Dec  1 13:50:12 2021 
+(IO): Writing spatial cell and reduced system data to disk, tstep = 360 t = 3600
+
+Wed Dec  1 13:50:12 2021 
+(writeGrid) Wrote 494.5 kB in 0.000777032 seconds, approximate data rate is 636.396 MB/s
+(IO): .... done!
+
+Wed Dec  1 13:50:12 2021 
+(MAIN): All timesteps calculated.
+	 (TIME) total run time 4.64973 s, total simulated time 3600 s
+	 (TIME) seconds per timestep 0.0129159, seconds per simulated second 0.00129159
+
+Wed Dec  1 13:50:12 2021 
+(MAIN): Exiting.
 

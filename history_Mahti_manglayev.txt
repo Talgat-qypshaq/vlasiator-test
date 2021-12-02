@@ -1,0 +1,551 @@
+    1  ls -la
+    2  cd .ssh
+    3  ls
+    4  cat id_rsa_mahti.pub 
+    5  cd ~
+    6  mkdir github
+    7  cd github/
+    8  git clone git@github.com:fmihpc/vlasiator.git
+    9  ls
+   10  sudo git clone git@github.com:fmihpc/vlasiator.git
+   11  cd ../
+   12  cd  .ssh/
+   13  ssh-keygen -t ed25519 -C "talgat.manglayev@gmail.com"
+   14  eval "$(ssh-agent -s)"
+   15  ssh-add ~/.ssh/id_ed25519
+   16  ls
+   17  cat id_ed25519.pub 
+   18  cd ~
+   19  cd github/
+   20  git clone git@github.com:fmihpc/vlasiator.git
+   21  git remote add Talgat-qypshaq git@github.com:Talgat-qypshaq/vlasiator.git
+   22  cd vlasiator/
+   23  git remote add Talgat-qypshaq git@github.com:Talgat-qypshaq/vlasiator.git
+   24  git fetch Talgat-qypshaq
+   25  git checkout --track Talgat-qypshaq/openacc2
+   26  ls
+   27  git log
+   28  ls MAKE
+   29  less MAKE/Makefile.mahti_clang 
+   30  nano ~/.bashrc 
+   31  .bashrc
+   32  ~/.bashrc
+   33  bash .bashrc
+   34  ~/.bashrc
+   35  bash ~/.bashrc
+   36  module list
+   37  nano ~/.bashrc 
+   38  module list
+   39  echo $VLASIATOR_ARCH 
+   40  cd github/vlasiator/\
+   41  cd github/vlasiator/
+   42  nano ~/.bashrc 
+   43  make allclean
+   44  make clean
+   45  ls MAKE/
+   46  nano ~/.bashrc 
+   47  export VLASIATOR_ARCH=mahti_clang
+   48  make allclean
+   49  make testpackage -j 8
+   50  groups
+   51  less MAKE/Makefile.mahti_clang 
+   52  ls
+   53  make testpackage -j 8
+   54  exit
+   55  cd github/vlasiator/
+   56  make testpackage -j 8
+   57  make allclean
+   58  make testpackage -j 8
+   59  nano ~/.bashrc 
+   60  make testpackage -j 8
+   61  cd github/vlasiator/
+   62  make testpackage -j 8
+   63  ls
+   64  cd MAKE/
+   65  ls
+   66  cat Makefile.mahti_clang 
+   67  nano ~/.bashrc 
+   68  ls
+   69  cd ../
+   70  ls
+   71  cat Makefile
+   72  git pull
+   73  make allclean
+   74  make testpackage -j 8
+   75  cd MAKE
+   76  ls
+   77  cd ../
+   78  git pull
+   79  nano ~/.bashrc 
+   80  history
+   81  bash ~/.bashrc
+   82  make allclean
+   83  make testpackage -j 8
+   84  nvaccelinfo
+   85  nvaccelinfo -v
+   86  git pull
+   87  make allclean
+   88  make testpackage -j 8
+   89  nano ~/.bashrc 
+   90  make allclean
+   91  make testpackage -j 8
+   92  nano ~/.bashrc 
+   93  bash ~/.bashrc
+   94  make allclean
+   95  make testpackage -j 8
+   96  g++ --version
+   97  git pull
+   98  make allclean
+   99  make testpackage -j 8
+  100  make allclean
+  101  make testpackage -j 8
+  102  git pull
+  103  make allclean
+  104  make testpackage -j 8
+  105  make allclean
+  106  make testpackage -j 8
+  107  make allclean
+  108  make testpackage -j 8
+  109  make allclean
+  110  git pull
+  111  make allclean
+  112  make testpackage -j 8
+  113  git pull
+  114  make allclean
+  115  make testpackage -j 8
+  116  git pull
+  117  make allclean
+  118  make testpackage -j 8
+  119  nvcc --version
+  120  ls
+  121  cd github/
+  122  ls
+  123  mkdir test
+  124  cd test/
+  125  git clone git@github.com:Talgat-qypshaq/vlasitator-test.git
+  126  ls
+  127  cd ../
+  128  ls
+  129  rm -rf test/
+  130  ls
+  131  git clone git@github.com:Talgat-qypshaq/vlasitator-test.git
+  132  ls
+  133  rm -rf vlasitator-test/
+  134  git clone git@github.com:Talgat-qypshaq/vlasiator-test.git
+  135  ls
+  136  cd vlasiator-test/
+  137  ls
+  138  cd PLM-testpackage/CUDA/
+  139  pwd
+  140  cd ~
+  141  cd github/vlasiator
+  142  pwd
+  143  cp /users/manglaye/github/vlasiator/vlasiator /users/manglaye/github/vlasiator-test/PLM-testpackage/CUDA
+  144  cd ../vlasiator-test/PLM-testpackage/CUDA/
+  145  ;s
+  146  ls
+  147  cd /users/manglaye/github/vlasiator
+  148  make tools
+  149  cd ../vlasiator-test/PLM-testpackage/
+  150  ls
+  151  mkdir compare
+  152  cd compare/
+  153  cp /home/manglaye/github/vlasiator/vlsvdiff_DP .
+  154  pwd
+  155  cp /users/manglaye/github/vlasiator/vlsvdiff_DP .
+  156  ls
+  157  cd ../
+  158  ../
+  159  ks
+  160  cd ../
+  161  ls
+  162  cd ../
+  163  ls
+  164  cd  vlasiator-test/
+  165  git add .
+  166  git commit -m "added files to run CUDA and compare the results"
+  167  git push
+  168  cd PLM-testpackage/CUDA/
+  169  ls
+  170  export OMP_NUM_THREADS=1
+  171  mpirun -n 1 vlasiator --run_config acctest_2_maxw_500k_100k_20kms_10deg_1.c
+  172  srun -n 1 vlasiator --run_config acctest_2_maxw_500k_100k_20kms_10deg_1.cfg
+  173  cd ../
+  174  git pull
+  175  sbatch Job.sh 
+  176  git pull
+  177  sbatch Job
+  178  git pull
+  179  sbatch Job
+  180  git pull
+  181  sbatch Job
+  182  ./Job
+  183  cd CUDA/
+  184  sbatch Job
+  185  ls
+  186  sh Job.sh 
+  187  git pull
+  188  sh Job.sh 
+  189  sbatch Job.sh 
+  190  cat /scratch/project_2002873/cuda_hackathon/marbat/Magnetosphere_polar_small/job.sh?
+  191  nano ~/.bashrc 
+  192  git pull
+  193  sbatch Job.sh
+  194  git pull
+  195  ls
+  196  sbatch Job
+  197  cd ../
+  198  git pull
+  199  cd CUDA/
+  200  ls
+  201  sbatch Job
+  202  squeue -u 840967
+  203  squeue -u manglaye
+  204  sacct
+  205  ls
+  206  cat logfile.txt 
+  207  ls
+  208  cat slurm-840967.out 
+  209  cd ../../
+  210  cd ../
+  211  cd vlasiator
+  212  git pull
+  213  cd ../vlasiator-test/
+  214  cd PLM-testpackage/CUDA/
+  215  ls
+  216  sbatch Job
+  217  ls
+  218  cd ../../../vlasiator
+  219  ls
+  220  make -j 64
+  221  pwd
+  222  cp /users/manglaye/github/vlasiator/vlasiator /users/manglaye/github/vlasiator-test/PLM-testpackage/CUDA
+  223  cd /users/manglaye/github/vlasiator-test/PLM-testpackage/CUDA/
+  224  ls
+  225  ls -all
+  226  sbatch Job
+  227  ls
+  228  cat diagnostic.txt 
+  229  cat logfile.txt 
+  230  cd ../
+  231  ls
+  232  cd CUDA/
+  233  ls
+  234  cat Job 
+  235  cd ../
+  236  git add .
+  237  git pull
+  238  ls
+  239  cd CUDA/
+  240  ls
+  241  sbatch Job 
+  242  ls
+  243  cat slurm-840978.out 
+  244  squeue -u manglaye
+  245  sacct
+  246  ls
+  247  cat slurm-840978.out 
+  248  squeue -u manglaye
+  249  cd /scratch/project_2002873/
+  250  ls
+  251  cd GPUperf/
+  252  ls
+  253  cd ../
+  254  cd cuda_hackathon/
+  255  ls
+  256  cd alhomark/
+  257  ls
+  258  cd ../
+  259  mkdir talgat
+  260  git init
+  261  git clone git@github.com:Talgat-qypshaq/vlasiator-test.git
+  262  ls
+  263  rm -rf vlasiator-test/
+  264  ls
+  265  cd talgat/
+  266  git init
+  267  git clone git@github.com:Talgat-qypshaq/vlasiator-test.git
+  268  ls
+  269  cd vlasiator-test/
+  270  ls
+  271  cd PLM-testpackage/
+  272  ls
+  273  cd CUDA/
+  274  ls
+  275  sbatch Job 
+  276  ls
+  277  cat slurm-841313.out 
+  278  ls
+  279  cat logfile.txt 
+  280  ls
+  281  cat diagnostic.txt 
+  282  ls
+  283  cd ../../
+  284  cd kempf/
+  285  ls
+  286  cat job.sh 
+  287  cd ../talgat/
+  288  cd vlasiator-test/
+  289  ls
+  290  git pull
+  291  ls
+  292  cd  PLM-testpackage/
+  293  cd CUDA/
+  294  ls
+  295  cat slurm-841313.out 
+  296  export OMP_NUM_THREADS=1
+  297  mpirun -n 1 vlasiator --run_config acctest_2_maxw_500k_100k_20kms_10deg_1.cfg
+  298  exit
+  299  ls
+  300  cd /scratch/project_2002873/
+  301  ls
+  302  cd cuda_hackathon/
+  303  ls
+  304  cd talgat/
+  305  ls
+  306  cd vlasiator-test/
+  307  cd PLM-testpackage/CUDA/
+  308  ls
+  309  rm -rf diagnostic.txt 
+  310  rm -rf logfile.txt 
+  311  cd ../../
+  312  git add .
+  313  git commit -m "Vlasiator Compiled"
+  314  git push
+  315  ls
+  316  cd PLM-testpackage/CUDA/
+  317  ls
+  318  pwd
+  319  ls
+  320  cp /scratch/project_2002873/cuda_hackathon/talgat/vlasiator-test/PLM-testpackage/CUDA/acctest_2_maxw_500k_100k_20kms_10deg_1.cfg /scratch/project_2002873/cuda_hackathon/talgat
+  321  cp /scratch/project_2002873/cuda_hackathon/talgat/vlasiator-test/PLM-testpackage/CUDA/vlasiator /scratch/project_2002873/cuda_hackathon/talgat
+  322  cp /scratch/project_2002873/cuda_hackathon/talgat/vlasiator-test/PLM-testpackage/CUDA/Job.sh /scratch/project_2002873/cuda_hackathon/talgat
+  323  cd /scratch/project_2002873/cuda_hackathon/talgat
+  324  ls
+  325  sbatch Job
+  326  sbatch Job.sh 
+  327  ls
+  328  cat logfile.txt 
+  329  cat slurm-841427.out 
+  330  cd ../
+  331  pwd
+  332  mv /scratch/project_2002873/cuda_hackathon/talgat/ /scratch/project_2002873/cuda_hackathon/manglaye
+  333  cd manglaye/
+  334  ls
+  335  sbatch Job.sh
+  336  ls
+  337  cat slurm-841436.out 
+  338  ls
+  339  cd  /scratch/project_2004522
+  340  cd /scratch/project_2002873
+  341  ls
+  342  cd cuda_hackathon/
+  343  ls
+  344  cd manglaye/
+  345  ls
+  346  cat slurm-841436.out 
+  347  cd ../
+  348  cd kempf/
+  349  ls
+  350  cd ../
+  351  ls
+  352  cd marbat/
+  353  ls
+  354  cat job.sh
+  355  cat job_small.sh
+  356  cat job.sh
+  357  cd ../manglaye/
+  358  git pull
+  359  ls
+  360  cd /users/manglaye/github/vlasiator-test/
+  361  git pull
+  362  pwd
+  363  cd /scratch/project_2002873/cuda_hackathon/manglaye/
+  364  ped
+  365  pwd
+  366  cp /users/manglaye/github/vlasiator-test/PLM-testpackage/CUDA/Job.sh /scratch/project_2002873/cuda_hackathon/manglaye
+  367  ls
+  368  sbatch Job.sh 
+  369  cat slurm-841961.out 
+  370  cd ../
+  371  ls
+  372  cd kempf/
+  373  ls
+  374  cat slurm-601549.out 
+  375  cd ../
+  376  ls
+  377  cd marbat/
+  378  ls
+  379  cd Magnetosphere_polar_small/
+  380  ls
+  381  cat slurm-606301.out 
+  382  cd ../
+  383  ls
+  384  cd Magnetosphere_polar_small/
+  385  ls
+  386  cd ../../manglaye/
+  387  ls
+  388  cat slurm-841961.out 
+  389  git pull
+  390  ls
+  391  cd vlasiator-test/
+  392  git pull
+  393  cd ../
+  394  ls
+  395  cp /users/manglaye/github/vlasiator-test/PLM-testpackage/CUDA/Job.sh /scratch/project_2002873/cuda_hackathon/manglaye
+  396  sbatch Job.sh 
+  397  ls
+  398  cat slurm-842193.out 
+  399  ls
+  400  cat Job.sh 
+  401  pwd
+  402  cat /scratch/project_2002873/cuda_hackathon/manglaye/vlasiator-test/PLM-testpackage/CUDA/Job.sh 
+  403  cp /users/manglaye/github/vlasiator-test/PLM-testpackage/CUDA/Job.sh /scratch/project_2002873/cuda_hackathon/manglaye
+  404  ls
+  405  cat Job.sh 
+  406  cat /scratch/project_2002873/cuda_hackathon/manglaye/vlasiator-test/PLM-testpackage/CUDA/Job.sh 
+  407  ls
+  408  vlasiator-test/
+  409  ls
+  410  cd vlasiator
+  411  pwd
+  412  rm -rf acctest_2_maxw_500k_100k_20kms_10deg_1.cfg 
+  413  rm -rf Job.sh 
+  414  rm -rf slurm-84*
+  415  ls
+  416  rm -rf diagnostic.txt 
+  417  rm -rf logfile.txt 
+  418  rm -rf vlasiator
+  419  ls
+  420  cd vlasiator-test/
+  421  ls
+  422  cd PLM-testpackage/CUDA/
+  423  ls
+  424  rm -rf slurm-841313.out 
+  425  ls
+  426  sbatch Job.sh 
+  427  ls
+  428  cat slurm-842214.out 
+  429  ls
+  430  cat slurm-842214.out 
+  431  pwd
+  432  nano ~/.bashrc 
+  433  bash ~/.bashrc
+  434  git pull
+  435  cat Job.sh 
+  436  sbatch Job.sh 
+  437  cat Job.sh 
+  438  ls
+  439  cat slurm-842229.out 
+  440  sbatch Job.sh 
+  441  cat slurm-842235.out 
+  442  git add .
+  443  git commit -m "t"
+  444  git push
+  445  ls
+  446  sbatch Job.sh 
+  447  cat Job.sh 
+  448  git pull
+  449  ls
+  450  cat Job.sh 
+  451  ls
+  452  cat slurm-842235.out
+  453  pwd
+  454  cd /users/manglaye/github/vlasiator/
+  455  git pull
+  456  ls
+  457  cd MAKE/
+  458  git pull
+  459  cd /scratch/project_2002873/cuda_hackathon/manglaye/vlasiator-test/PLM-testpackage/CUDA
+  460  ls
+  461  cd /users/manglaye/github/vlasiator/
+  462  ks
+  463  ls
+  464  make allclean
+  465  make testpackage -j 8
+  466  git pull
+  467  make allclean
+  468  make testpackage -j 8
+  469  cd /scratch/project_2002873/cuda_hackathon/manglaye/vlasiator-test/PLM-testpackage/CUDA
+  470  cp /users/manglaye/github/vlasiator/vlasiator /scratch/project_2002873/cuda_hackathon/manglaye/vlasiator-test/PLM-testpackage/CUDA/
+  471  ls
+  472  ls -all
+  473  sbatch Job.sh 
+  474  git pull
+  475  sbatch Job.sh git push
+  476  git push
+  477  git add .
+  478  git status
+  479  git add .
+  480  git commit -m "t"
+  481  git push
+  482  git pull
+  483  cat Job.sh 
+  484  sbatch Job.sh
+  485  cat Job.sh
+  486  sbatch Job.sh
+  487  ls
+  488  cd /users/manglaye/github/vlasiator/
+  489  git pull
+  490  make testpackage -j 8
+  491  make allclean
+  492  make testpackage -j 8
+  493  git pull
+  494  make allclean
+  495  make testpackage -j 8
+  496  git pull
+  497  make allclean
+  498  make testpackage -j 8
+  499  git pull
+  500  make allclean
+  501  git pull
+  502  make testpackage -j 8
+  503  cd /scratch/project_2002873/cuda_hackathon/manglaye/vlasiator-test/PLM-testpackage/CUDA
+  504  cp /users/manglaye/github/vlasiator/vlasiator /scratch/project_2002873/cuda_hackathon/manglaye/vlasiator-test/PLM-testpackage/CUDA/
+  505  ls -all
+  506  sbatch Job.sh 
+  507  cat Job.sh 
+  508  cd /scratch/project_2002873/cuda_hackathon/manglaye/vlasiator-test/PLM-testpackage/CUDA
+  509  sbatch Job.sh
+  510  pwd
+  511  cd /scratch/project_2004522/
+  512  ls
+  513  cp /scratch/project_2002873/cuda_hackathon/manglaye/* .
+  514  ls
+  515  mkdir manglaye
+  516  ls
+  517  cd manglaye/
+  518  cp /scratch/project_2002873/cuda_hackathon/manglaye* .
+  519  ls
+  520  cp -R /scratch/project_2002873/cuda_hackathon/manglaye .
+  521  ls
+  522  rm -rf manglaye/
+  523  cd ../
+  524  rm -rf manglaye/
+  525  cp -R /scratch/project_2002873/cuda_hackathon/manglaye/ .
+  526  ls
+  527  cd manglaye/
+  528  ls
+  529  cd vlasiator-test/
+  530  ls
+  531  cd PLM-testpackage/
+  532  ls
+  533  cd CUDA/
+  534  ls
+  535  sbatch Job.sh 
+  536  pwd
+  537  git pull
+  538  cat Job.sh 
+  539  sbatch Job.sh 
+  540  ls
+  541  cat slurm-845331.out 
+  542  ls
+  543  exit
+  544  ls
+  545  exit
+  546  ls
+  547  cd /scratch/project_2004522/
+  548  ls
+  549  cd /scratch/project_2004522/manglaye/vlasiator-test/
+  550  ls
+  551  history > history_Mahti_manglayev.txt

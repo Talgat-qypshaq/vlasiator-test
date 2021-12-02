@@ -1,0 +1,52 @@
+nsight systems  2021.1  loaded 
+
+----------- Compilation --------- 
+date:       Tue 30 Nov 16:50:12 EET 2021
+folder:     /users/manglaye/github/vlasiator 
+CMP:        mpic++ 
+CXXFLAGS:   -DUSE_JEMALLOC -DJEMALLOC_NO_DEMANGLE -g -O2 -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -Minfo=accel -ta=tesla:lineinfo,keepbin,keepgpu,keepptx -Manno -g -nomp -DPROFILE -DNDEBUG -DACC_SEMILAG_PLM -DTRANS_SEMILAG_PLM -I/projappl/project_2002873/libraries/nvhpc/21.2/phiprof/include -I//projappl/project_2002873/libraries/clang/10.0.0/jemalloc/include -DDP -DDPF -DVEC4D_FALLBACK -g -O2 -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -Minfo=accel -ta=tesla:lineinfo,keepbin,keepgpu,keepptx -Manno -nomp -DPROFILE -DNDEBUG -DACC_SEMILAG_PLM -DTRANS_SEMILAG_PLM -I/projappl/project_2002873/libraries/nvhpc/21.2/phiprof/include -I//projappl/project_2002873/libraries/clang/10.0.0/jemalloc/include -DDP -DDPF -DVEC4D_FALLBACK 
+FLAGS:       
+INC_MPI:     
+INC_DCCRG:  -I/projappl/project_2002873/libraries/nvhpc/21.2/dccrg 
+INC_ZOLTAN: -I/projappl/project_2002873/libraries/nvhpc/21.2/fsgrid 
+INC_BOOST:  -I//projappl/project_2002873/libraries/nvhpc/21.2/zoltan/include 
+
+----------- git branch --------- 
+  master
+* openacc2
+
+----------- git log (last 10 commits) --------- 
+36facfe99a022858c6f49c7b85a3b27cd1fdee81 MF
+1bfdaa794ba7927051ae236173b8fd6895f60476 MF
+1e8c3662e4281b231201f9bcc86d51215dd7f95e MF
+d3ab7b3b3b42893037f57111c90dad56e72040a1 Merge branch 'openacc2' of github.com:Talgat-qypshaq/vlasiator into openacc2
+589e0c32660c765d7efa70f99cb3625b3a5b30fe MF
+f61dd37868baf5809f028ad3c251fe85bd2491d9 Merge pull request #9 from markusbattarbee/openacc_Makefile_DPF
+c34068d2900ed8209c283bb104c63a6da1ff15ec Added precision and vectorclass flags to CUDA Makefile part
+088321de58c116cdf36a034d61d4707497329403 test with another Makefile for Mahti
+111156dfe74576667ec0ffa3fa370d23d522064e changed PQM to PLM
+8667dfd2a0790cab28e3481468eb891c8b6b9b5c changes in Makefile
+
+----------- module list --------- 
+
+Currently Loaded Modules:
+  1) nvhpc/21.2   2) openmpi/4.0.5-cuda   3) cuda/11.2
+
+ 
+
+
+----------- git status --------- 
+# On branch openacc2
+nothing to commit, working directory clean
+
+----------- git diff ---------- 
+
+Warning: LBR backtrace method is not supported on this platform. DWARF backtrace method will be used.
+WARNING: Backtraces will not be collected because sampling is disabled.
+Collecting data...
+Processing events...
+Saving temporary "/tmp/manglaye/845331/nsys-report-c012-b1f8-c038-566d.qdstrm" file to disk...
+
+Creating final output files...
+Report file moved to "/scratch/project_2004522/manglaye/vlasiator-test/PLM-testpackage/CUDA/report1.qdstrm"
+
